@@ -13,6 +13,20 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Sora:wght@400;600;700;800&display=swap"
             rel="stylesheet"
         />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
         <!-- style css -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
         <!-- favicon -->
@@ -103,36 +117,80 @@
                         alt="Lucy"
                         class="logo"
                     />
+
+                    <a href="./index.html" class="header__mobile-logo">
+                        <img
+                            src="./assets/image/Logo.svg"
+                            alt=""
+                            class="header__mobile-logo"
+                        />
+                    </a>
+
+                    <label for="menu-checkbox">
+                        <img
+                            src="./assets/image/Menu.svg"
+                            alt=""
+                            class="header-menu"
+                        />
+                    </label>
                     <!-- navbar -->
                     <nav class="navbar">
                         <ul class="navbar__list">
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link"> Home </a>
-                            </li>
-                            <li class="navbar__item">
-                                <a href="#!" class="navbar__link"> About </a>
+                                <a href="#!" class="navbar__link">Trang chủ</a>
                             </li>
                             <li class="navbar__item">
                                 <a href="#!" class="navbar__link">
-                                    Services & Rates
+                                    Giới thiệu
                                 </a>
                             </li>
+
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link"> Reviews </a>
-                            </li>
-                            <li class="navbar__item">
-                                <a href="#!" class="navbar__link">
-                                    Contacts us
-                                </a>
+                                <a href="#!" class="navbar__link"> Bài viết </a>
                             </li>
                         </ul>
                     </nav>
                     <!-- header action -->
                     <div class="header-action">
-                        <a href="#!" class="header-action__link">Sign in</a>
-                        <a href="#!" class="btn header-action__btn">Sign up</a>
+                        <a href="#!" class="btn header-action__btn">Liên hệ</a>
                     </div>
                 </div>
+            </div>
+        </header>
+        <!-- Mobile Header -->
+        <header class="mobile-header">
+            <input
+                type="checkbox"
+                name="menu-checkbox"
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <label for="menu-checkbox" class="menu-overlay"></label>
+
+            <div class="menu-drawer">
+                <a href="#!">
+                    <img
+                        src="./assets/image/Logo.svg"
+                        alt=""
+                        class="mobile-header-logo"
+                    />
+                </a>
+
+                <ul class="menu-list__mobile">
+                    <li>
+                        <a href="#" class="menu-item__mobile">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="!#" class="menu-item__mobile"> Giới thiệu </a>
+                    </li>
+
+                    <li>
+                        <a href="./contact.html" class="menu-item__show-mobile">
+                            Liên Hệ
+                        </a>
+                    </li>
+                </ul>
             </div>
         </header>
         <!-- hero -->
@@ -140,10 +198,11 @@
             <div class="container">
                 <div class="hero__inner">
                     <!-- hero media -->
+                    <h1 class="hero__heading__mobile">TIN HỌC CHO BÉ</h1>
                     <div class="hero__media">
                         <div class="hero__img-wrap">
                             <img
-                                src="./assets/image/pet-01.png"
+                                src="./assets/image/1.png"
                                 alt=""
                                 class="hero__img"
                             />
@@ -163,7 +222,7 @@
 
                         <div class="hero__img-wrap hero__img-wrap-small">
                             <img
-                                src="./assets/image/pet-02.png"
+                                src="./assets/image/Picture1.png"
                                 alt=""
                                 class="hero__img hero__img--small"
                             />
@@ -173,13 +232,13 @@
                             <!-- hero list item 1 -->
                             <div class="hero-list-item">
                                 <img
-                                    src="./assets/image/pet-03.png"
+                                    src="./assets/image/Picture2.png"
                                     alt=""
                                     class="her0__list-item___thumb"
                                 />
                                 <div class="hero-list-item__info">
                                     <p class="hero-list-item__title">
-                                        Pet Health
+                                        Thành thạo máy tính
                                     </p>
                                     <div class="hero-list-item_-skeleton"></div>
                                     <div
@@ -194,13 +253,13 @@
                             <!-- hero list item 2 -->
                             <div class="hero-list-item">
                                 <img
-                                    src="./assets/image/pet-04.png"
+                                    src="./assets/image/Picture4.png"
                                     alt=""
                                     class="hero__list-item___thumb"
                                 />
                                 <div class="hero-list-item__info">
                                     <p class="hero-list-item__title">
-                                        Pet care
+                                        Ứng dụng kiến thức cho đến sau này
                                     </p>
                                     <div class="hero-list-item_-skeleton"></div>
                                     <div
@@ -213,17 +272,29 @@
                     </div>
                     <!-- hero content -->
                     <section class="hero__content">
-                        <h1 class="hero__heading">
-                            Established & Trusted Pet Care Service
+                        <h1 class="hero__heading">TIN HỌC CHO BÉ</h1>
+                        <h1 class="hero__heading__mobile2">
+                            Vì sao cần học tin học
                         </h1>
                         <p class="hero__desc">
-                            Discover a wide variety of Pawsitive services to
-                            choose from, including daycare, private walks,
-                            office duty and spa.
+                            Trong thời đại Công nghệ thông tin phát triển vượt
+                            bậc như hiện nay, kiến thức Tin học đóng vai trò
+                            quan trọng trong việc xây dựng nền Giáo dục toàn
+                            diện cho trẻ. Và việc trang bị kiến thức Tin học văn
+                            phòng cho trẻ em đang là vấn đề được rất nhiều phụ
+                            huynh quan tâm lựa chọn.
+                            <br />
+                            Chúng tôi đã xây dựng khóa học phù hợp với các bé,
+                            sau khi hoàn thành khóa học bé có thể thành thạo sử
+                            dụng các tính năng cơ bản của máy tính và ứng dụng
+                            kiến thức đã học vào thực tế sau này.
                         </p>
                         <div class="hero__row">
-                            <a href="#!" class="btn btn--primay hero__cta-btn">
-                                Book a Meet
+                            <a
+                                href="tel:0987183446"
+                                class="btn btn--primay hero__cta-btn"
+                            >
+                                Liên hệ ngay
                                 <span class="btn__icon">
                                     <svg
                                         width="9"
@@ -241,9 +312,6 @@
                                     </svg>
                                 </span>
                             </a>
-                            <a href="#!" class="hero__cta-link"
-                                >Schedule a Call</a
-                            >
                         </div>
                     </section>
                 </div>
@@ -255,34 +323,32 @@
                 <div class="container">
                     <div class="about__inner">
                         <section class="about__content">
-                            <p class="about__label">// About //</p>
+                            <p class="about__label">// GIỚI THIỆU //</p>
                             <h2 class="about__heading section-heading">
-                                Best Agency For Your Pet.
+                                Kết quả đạt được sau khi hoàn thành khóa học:
                             </h2>
-                            <p class="about__desc section-desc">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
+                            <!-- <p class="about__desc section-desc">
+                                Sau khi hoàn thành khóa học Bé có thể:
+                            </p> -->
                             <div class="about__checklist">
                                 <span class="about__check-item">
-                                    Certified Groomer
+                                    Sử dụng thành thạo máy tính
                                 </span>
                                 <span class="about__check-item">
-                                    Animal Lover
+                                    Gõ bàn phím bằng 10 ngón
                                 </span>
                                 <span class="about__check-item">
-                                    14+ Years Experience
+                                    Sử dụng các phần mềm Microsoft Office
                                 </span>
                                 <span class="about__check-item">
-                                    Pet Parent Of 3 Dogs
+                                    Bảo mật và an toàn thông tin trên Internet.
                                 </span>
                             </div>
                         </section>
                         <div class="about__media">
                             <div class="about__card">
-                                <b class="about__card-title">20+</b>
-                                <p class="about__card-desc">Years Experience</p>
+                                <b class="about__card-title">10+</b>
+                                <p class="about__card-desc">Năm kinh nghiệm</p>
                                 <img
                                     src="./assets/image/about-decor-01.png"
                                     alt=""
@@ -292,7 +358,7 @@
                             <!-- About img wrap -->
                             <figure class="about__img-wrap">
                                 <img
-                                    src="./assets/image/about-img.png"
+                                    src="./assets/image/Picture5.png"
                                     alt=""
                                     class="about__img"
                                 />
@@ -303,130 +369,6 @@
                                 class="about__media-decor"
                             />
                         </div>
-                        <div class="about__media">
-                            <figure
-                                class="about__img-wrap about__img-wrap-bottom"
-                            >
-                                <img
-                                    src="./assets/image/about02.png"
-                                    alt=""
-                                    class="about__img about__img-bottom"
-                                />
-                                <!-- decorator -->
-                                <div>
-                                    <img
-                                        src="./assets/image/about-decor-03.svg"
-                                        alt=""
-                                        class="about__dercor-img"
-                                    />
-                                    <img
-                                        src="./assets/image/about-decor-04.svg"
-                                        alt=""
-                                        class="about__dercor-img"
-                                    />
-                                    <img
-                                        src="./assets/image/about-decor-05.svg"
-                                        alt=""
-                                        class="about__dercor-img"
-                                    />
-                                    <img
-                                        src="./assets/image/about-decor-06.svg"
-                                        alt=""
-                                        class="about__dercor-img"
-                                    />
-                                    <img
-                                        src="./assets/image/about-decor-07.svg"
-                                        alt=""
-                                        class="about__dercor-img"
-                                    />
-                                    <img
-                                        src="./assets/image/about-decor-08.svg"
-                                        alt=""
-                                        class="about__dercor-img"
-                                    />
-                                </div>
-                            </figure>
-                        </div>
-                        <section class="about__content">
-                            <h2 class="section-heading">
-                                Taking A Vacation? So Is Your Pet.
-                            </h2>
-                            <p class="section-desc about__desc-bottom">
-                                We offer long-term and short-term boarding.
-                                Every dog has its own private, spacious room and
-                                daily individual time in our large play yard.
-                            </p>
-                            <div class="tab">
-                                <ul class="tab__list">
-                                    <li class="tab__item tab__item--actived">
-                                        <img
-                                            src="./assets/image/home1.png"
-                                            alt=""
-                                            class="tab__item-icon"
-                                        />
-                                        <span class="tab__title"
-                                            >Pet Boarding</span
-                                        >
-                                    </li>
-                                    <li class="tab__item">
-                                        <img
-                                            src="./assets/image/home.png"
-                                            alt=""
-                                            class="tab__item-icon"
-                                        />
-                                        <span class="tab__title"
-                                            >Pet Daycare</span
-                                        >
-                                    </li>
-                                    <li class="tab__item">
-                                        <img
-                                            src="./assets/image/tab3.svg"
-                                            alt=""
-                                            class="tab__item-icon"
-                                        />
-                                        <span class="tab__title"
-                                            >Pet Transport</span
-                                        >
-                                    </li>
-                                </ul>
-                                <div class="tab__contents">
-                                    <div
-                                        class="tab__content-item tab__content-item--actived"
-                                    >
-                                        <p class="tab-content-desc">
-                                            While you're on holiday, here's
-                                            where your furry friends will spend
-                                            their time 1.
-                                        </p>
-                                        <a href="#!" class="tab__content-more"
-                                            >View more</a
-                                        >
-                                    </div>
-
-                                    <div class="tab__content-item">
-                                        <p class="tab-content-desc">
-                                            While you're on holiday, here's
-                                            where your furry friends will spend
-                                            their time 2.
-                                        </p>
-                                        <a href="#!" class="tab__content-more"
-                                            >View more</a
-                                        >
-                                    </div>
-
-                                    <div class="tab__content-item">
-                                        <p class="tab-content-desc">
-                                            While you're on holiday, here's
-                                            where your furry friends will spend
-                                            their time 3.
-                                        </p>
-                                        <a href="#!" class="tab__content-more"
-                                            >View more</a
-                                        >
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
                     </div>
                 </div>
             </section>
@@ -434,108 +376,93 @@
             <div class="service">
                 <div class="container">
                     <section class="service-top">
-                        <p class="service__desc">What we do for you?</p>
-                        <h2 class="section-heading">Our Services</h2>
+                        <p class="service__desc">
+                            Bé sẽ nhận được gì tại khóa học
+                        </p>
+                        <h2 class="section-heading">TIN HỌC CHO BÉ</h2>
                     </section>
                     <div class="service__body">
                         <div class="service__column">
                             <!-- 1 -->
                             <article class="service-item">
                                 <h3 class="service-item__heading">
-                                    Puppy Sitting
+                                    Thành thạo sử dụng máy tính
                                 </h3>
                                 <p class="service-item__desc">
-                                    Helping your new pup to be a good boy or
-                                    girl isn’t always easy, but we’re here to
-                                    help.
+                                    Bé sẽ được học cách sử dụng các tính năng cơ
+                                    bản của máy tính làm tiền đề để học những
+                                    kiến thức nâng cao về sau
                                 </p>
-                                <a href="#!" class="service-item__more"
-                                    >Read More
-                                </a>
                             </article>
                             <!-- 2 -->
                             <article class="service-item">
                                 <h3 class="service-item__heading">
-                                    Dog Walking
+                                    Kỹ năng gõ bàn phím bằng 10 ngón
                                 </h3>
                                 <p class="service-item__desc">
-                                    Choose from a 30, 45, or 60-minute visit to
-                                    give your pet their daily dose of
-                                    fun-filled.
+                                    Bé sẽ được học cách gõ bàn phím máy tính
+                                    bằng 10 ngón, không cần nhìn bàn phím khi gõ
+                                    giúp tăng hiệu quả việc
                                 </p>
-                                <a href="#!" class="service-item__more"
-                                    >Read More
-                                </a>
                             </article>
                             <!-- 3 -->
                             <article class="service-item">
                                 <h3 class="service-item__heading">
-                                    Pet Sitting
+                                    Học về Paint, Word, PowerPoint
                                 </h3>
                                 <p class="service-item__desc">
-                                    While you’re away we can make sure your pet
-                                    has all the food, water, exercise, and, of
-                                    course.
+                                    Bé sẽ được học kiến thức căn bản về các phần
+                                    mềm trên, làm tiền đề để học nâng cao và
+                                    phục vụ công việc sau này
                                 </p>
-                                <a href="#!" class="service-item__more"
-                                    >Read More
-                                </a>
                             </article>
                         </div>
-                        <div class="service__column">
+                        <div class="service__column service__column__mobile">
                             <figure class="service-media">
                                 <img
-                                    src="./assets/image/service-img.png"
+                                    src="./assets/image/Picture6.png"
                                     alt=""
                                     class="service__img"
                                 />
                             </figure>
-                            <div class="servivce__cta-wrap">
+                            <!-- <div class="service__cta-wrap">
                                 <a href="#!" class="btn service__cta"
                                     >View All Services</a
                                 >
-                            </div>
+                            </div> -->
                         </div>
                         <div class="service__column">
                             <!-- 4 -->
                             <article class="service-item">
                                 <h3 class="service-item__heading">
-                                    Overnight Care
+                                    Học phần mềm lập trình Scratch
                                 </h3>
                                 <p class="service-item__desc">
-                                    If you’re away for the night, we can stay
-                                    the night or stop by in the evening and
-                                    morning.
+                                    Scratch giúp Bé học cách viết code theo cách
+                                    trực quan hấp dẫn góp phần khơi dậy khả năng
+                                    lập trình của bé
                                 </p>
-                                <a href="#!" class="service-item__more"
-                                    >Read More
-                                </a>
                             </article>
                             <!-- 5 -->
                             <article class="service-item">
-                                <h3 class="service-item__heading">Pet Taxi</h3>
+                                <h3 class="service-item__heading">
+                                    Học phần mềm Microsoft Excel
+                                </h3>
                                 <p class="service-item__desc">
-                                    Does your pet need a lift to the groomers,
-                                    vet, or dog park? We’ve got their tail
-                                    covered.
+                                    Bé sẽ được tìm hiểu về phần mềm Excel, phục
+                                    vụ công việc sau này
                                 </p>
-                                <a href="#!" class="service-item__more"
-                                    >Read More
-                                </a>
                             </article>
                             <!-- 6 -->
                             <article class="service-item">
                                 <h3 class="service-item__heading">
-                                    Pet Medical Admin
+                                    Tìm hiểu về mạng Internet và Bảo mật
                                 </h3>
                                 <p class="service-item__desc">
-                                    Our team of experienced professionals can
-                                    help with everything from pills to
-                                    injections.
+                                    Bé sẽ được học về tìm kiếm thông tin trên
+                                    Internet, Bảo mật thông tin tài khoản mạng
+                                    xã hội và nhiều nội dung khác
                                 </p>
-                                <a href="#!" class="service-item__more"
-                                    >Read More
-                                </a>
                             </article>
                         </div>
                     </div>
@@ -544,7 +471,7 @@
             <!-- staff -->
             <section class="staff">
                 <div class="container">
-                    <p class="staff__desc">Pet Care Staff</p>
+                    <p class="staff__desc">Đội ngũ giảng dạy</p>
                     <h2 class="section-heading staff__heading">
                         Meet Our Groomers
                     </h2>
