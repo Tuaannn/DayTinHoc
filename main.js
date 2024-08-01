@@ -26,11 +26,11 @@ function changeSlide(direction) {
     showSlide(currentSlide + direction);
 }
 
-// function startSlideShow() {
-//     slideInterval = setInterval(() => {
-//         changeSlide(1);
-//     }, 5000);
-// }
+function startSlideShow() {
+    slideInterval = setInterval(() => {
+        changeSlide(1);
+    }, 5000);
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     showSlide(currentSlide);

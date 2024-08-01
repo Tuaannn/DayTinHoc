@@ -1064,14 +1064,14 @@ a {
 
 .review-wrap {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.7fr;
     column-gap: 40px;
 }
 
 .review__inner {
     display: flex;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 20px;
 }
 
 .review__img-wrap {
