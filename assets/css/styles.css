@@ -142,10 +142,9 @@ a {
 }
 
 .header-action__btn {
-    --height: 50px;
-    min-width: 138px;
+    --height: 60px;
+    width: 1px;
     color: #fff;
-    border-radius: 10px;
     background-color: #ff5b2e;
     border-color: #ff5b2e;
 }
@@ -946,7 +945,7 @@ a {
     font-size: 1.4rem;
     line-height: 1.71;
     display: -webkit-box;
-    -webkit-line-clamp: var(--line-clamp, 3);
+    -webkit-line-clamp: var(--line-clamp, 4);
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -1239,6 +1238,7 @@ a {
 
 .review__list {
     display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
 .review-item {

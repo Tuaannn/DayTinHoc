@@ -473,7 +473,6 @@
                     </div>
                 </div>
             </div>
-            <!-- staff -->
 
             <!-- pricing -->
             <section class="pricing">
@@ -563,7 +562,7 @@
                         <article class="pricing-item">
                             <p class="pricing-item__type">Nâng cao</p>
                             <h2 class="pricing-item__heading">Theo Khóa</h2>
-                            <p class="pricing-item__price">4.500.000đ</p>
+                            <p class="pricing-item__price">4.000.000đ</p>
                             <button class="btn pricing-item__btn">
                                 Đăng ký ngay
                             </button>
@@ -605,7 +604,10 @@
                 <div class="container">
                     <div class="review__inner">
                         <!-- review previos -->
-                        <button class="review__control">
+                        <button
+                            class="review__control"
+                            onclick="changeSlide(-1)"
+                        >
                             <svg
                                 width="20"
                                 height="21"
@@ -649,14 +651,7 @@
                                             Our Reviews
                                         </h2>
                                         <blockquote class="review-item__quote">
-                                            “It was very comforting to recieve a
-                                            text and pics each day about our
-                                            pets and how they were doing. It was
-                                            also nice that my pets were in the
-                                            comfortable environment of their own
-                                            home and received playfull attention
-                                            from our pet sitters as well. Thanks
-                                            so much!”
+                                            Content1
                                         </blockquote>
                                         <p class="review-item__author">
                                             Karla Deras
@@ -677,14 +672,28 @@
                                             Our Reviews
                                         </h2>
                                         <blockquote class="review-item__quote">
-                                            “It was very comforting to recieve a
-                                            text and pics each day about our
-                                            pets and how they were doing. It was
-                                            also nice that my pets were in the
-                                            comfortable environment of their own
-                                            home and received playfull attention
-                                            from our pet sitters as well. Thanks
-                                            so much!”
+                                            content 2
+                                        </blockquote>
+                                        <p class="review-item__author">
+                                            Karla Deras
+                                        </p>
+                                    </section>
+                                </article>
+
+                                <article class="review-item">
+                                    <figure class="review-item__media">
+                                        <img
+                                            src="./assets/image/pet-04.png"
+                                            alt=""
+                                            class="review-item__img"
+                                        />
+                                    </figure>
+                                    <section class="review-item__content">
+                                        <h2 class="section-heading">
+                                            Our Reviews
+                                        </h2>
+                                        <blockquote class="review-item__quote">
+                                            content 3
                                         </blockquote>
                                         <p class="review-item__author">
                                             Karla Deras
@@ -705,14 +714,7 @@
                                             Our Reviews
                                         </h2>
                                         <blockquote class="review-item__quote">
-                                            “It was very comforting to recieve a
-                                            text and pics each day about our
-                                            pets and how they were doing. It was
-                                            also nice that my pets were in the
-                                            comfortable environment of their own
-                                            home and received playfull attention
-                                            from our pet sitters as well. Thanks
-                                            so much!”
+                                            content 4
                                         </blockquote>
                                         <p class="review-item__author">
                                             Karla Deras
@@ -733,14 +735,7 @@
                                             Our Reviews
                                         </h2>
                                         <blockquote class="review-item__quote">
-                                            “It was very comforting to recieve a
-                                            text and pics each day about our
-                                            pets and how they were doing. It was
-                                            also nice that my pets were in the
-                                            comfortable environment of their own
-                                            home and received playfull attention
-                                            from our pet sitters as well. Thanks
-                                            so much!”
+                                            content 4
                                         </blockquote>
                                         <p class="review-item__author">
                                             Karla Deras
@@ -751,9 +746,8 @@
 
                             <!-- review  dots -->
                             <div class="review__dots">
-                                <div
-                                    class="review__dot review__dot--actived"
-                                ></div>
+                                <div class="review__dot"></div>
+                                <div class="review__dot"></div>
                                 <div class="review__dot"></div>
                                 <div class="review__dot"></div>
                                 <div class="review__dot"></div>
@@ -761,7 +755,10 @@
                         </div>
 
                         <!-- review next  -->
-                        <button class="review__control">
+                        <button
+                            class="review__control"
+                            onclick="changeSlide(1)"
+                        >
                             <svg
                                 width="20"
                                 height="21"
@@ -1115,4 +1112,5 @@
             </div>
         </footer>
     </body>
+    <script src="./main.js"></script>
 </html>
