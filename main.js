@@ -15,9 +15,9 @@ function showSlide(index) {
 
     const slideWidth = slides[currentSlide].clientWidth;
 
-    document.querySelector(".review__list").style.transform = `translateX(-${
-        slideWidth * currentSlide
-    }px)`;
+    document.querySelector(
+        ".review__list-img"
+    ).style.transform = `translateX(-${slideWidth * currentSlide}px)`;
 
     dots[currentSlide].classList.add("review__dot--actived");
 }
@@ -26,11 +26,11 @@ function changeSlide(direction) {
     showSlide(currentSlide + direction);
 }
 
-function startSlideShow() {
-    slideInterval = setInterval(() => {
-        changeSlide(1);
-    }, 5000);
-}
+// function startSlideShow() {
+//     slideInterval = setInterval(() => {
+//         changeSlide(1);
+//     }, 5000);
+// }
 
 document.addEventListener("DOMContentLoaded", () => {
     showSlide(currentSlide);
