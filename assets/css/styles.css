@@ -1064,14 +1064,13 @@ a {
 
 .review-wrap {
     display: grid;
-    grid-template-columns: 1fr 0.7fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 40px;
 }
 
 .review__inner {
     display: flex;
     align-items: center;
-    column-gap: 20px;
 }
 
 .review__img-wrap {
@@ -1112,14 +1111,14 @@ a {
     flex-shrink: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 115px;
 }
 
 .review-item__img {
     position: relative;
     display: block;
-
-    width: 100%;
+    width: 80%;
     border-radius: 64px;
     object-fit: cover;
 }
