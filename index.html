@@ -140,13 +140,13 @@
                                 <a href="#!" class="navbar__link">Trang chủ</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">
-                                    Giới thiệu
-                                </a>
+                                <a href="#!" class="navbar__link"> Bài viết </a>
                             </li>
 
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link"> Bài viết </a>
+                                <a href="#!" class="navbar__link">
+                                    Giới thiệu
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -180,6 +180,9 @@
                 <ul class="menu-list__mobile">
                     <li>
                         <a href="#" class="menu-item__mobile">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item__mobile">Bài viết</a>
                     </li>
                     <li>
                         <a href="!#" class="menu-item__mobile"> Giới thiệu </a>
@@ -638,7 +641,7 @@
             <section class="pricing">
                 <div class="container pricing-container">
                     <h2 class="section-heading pricing__heading">
-                        Học Phí Khóa Tin Học Cho Bé
+                        Bảng Học Phí Khóa Học Tin Học Cho Bé
                     </h2>
                     <p class="section-desc pricing__desc">Cơ bản & Nâng cao</p>
                     <div class="pricing__switch-wrap"></div>
@@ -764,6 +767,191 @@
                     </div>
                 </div>
             </section>
+
+            <div class="feedback">
+                <div class="container">
+                    <div class="feedback-inner">
+                        <!-- <div class="feedback-media"> -->
+                        <!-- <img
+                            src="./assets/image/review4.jpg"
+                            alt=""
+                            class="feedback__image"
+                        /> -->
+                        <!-- </div> -->
+
+                        <div class="feedback-content">
+                            <button
+                                class="feedback__control"
+                                onclick="changeReview(-1)"
+                            >
+                                <svg
+                                    width="20"
+                                    height="21"
+                                    viewBox="0 0 20 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M16.875 10.9985H3.125"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M8.75 5.37354L3.125 10.9985L8.75
+            16.6235"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+
+                            <div class="feedback-item--wrap">
+                                <div class="feedback-item--lists">
+                                    <!-- item 1 -->
+                                    <div class="feedback-item">
+                                        <h2 class="feedback__heading">
+                                            Mọi người nói gì về khóa học này
+                                        </h2>
+                                        <q class="feedback__rate">
+                                            Thầy dạy rất tỉ mỉ, chi tiết, con
+                                            mình đã học được rất nhiều ở khóa cơ
+                                            bản, tiếp tục sẽ cho con mình học
+                                            khóa nâng cao
+                                        </q>
+                                        <div class="feedback-author">
+                                            <img
+                                                src="./assets/image/feedback-author.jpg"
+                                                alt=""
+                                                class="feedback-author__image"
+                                            />
+                                            <div class="feedback-author__info">
+                                                <p
+                                                    class="feedback-author__name"
+                                                >
+                                                    Ngọc Ánh
+                                                </p>
+                                                <p
+                                                    class="feedback-author__design"
+                                                >
+                                                    Người dùng
+                                                </p>
+                                                <img
+                                                    src="./assets/image/feedback-star.svg"
+                                                    alt=""
+                                                    class="feedback-author__star"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- item 2 -->
+                                    <div class="feedback-item">
+                                        <h2 class="feedback__heading">
+                                            Mọi người nói gì về khóa học này
+                                        </h2>
+                                        <q class="feedback__rate">
+                                            Khóa học rất chi tiết, còn mình từ
+                                            trang giấy trắng nay đã có thể dùng
+                                            được máy tinh thành thạo
+                                        </q>
+                                        <div class="feedback-author">
+                                            <img
+                                                src="./assets/image/feedback-author.jpg"
+                                                alt=""
+                                                class="feedback-author__image"
+                                            />
+                                            <div class="feedback-author__info">
+                                                <p
+                                                    class="feedback-author__name"
+                                                >
+                                                    Gia Hân
+                                                </p>
+                                                <p
+                                                    class="feedback-author__design"
+                                                >
+                                                    Người dùng
+                                                </p>
+                                                <img
+                                                    src="./assets/image/feedback-star.svg"
+                                                    alt=""
+                                                    class="feedback-author__star"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- item 3 -->
+                                    <div class="feedback-item">
+                                        <h2 class="feedback__heading">
+                                            Mọi người nói gì về khóa học này
+                                        </h2>
+                                        <q class="feedback__rate">
+                                            Khóa học chi tiết, con mình đã học
+                                            được rất nhiều từ khóa học này
+                                        </q>
+                                        <div class="feedback-author">
+                                            <img
+                                                src="./assets/image/feedback-author.jpg"
+                                                alt=""
+                                                class="feedback-author__image"
+                                            />
+                                            <div class="feedback-author__info">
+                                                <p
+                                                    class="feedback-author__name"
+                                                >
+                                                    Thanh Loan
+                                                </p>
+                                                <p
+                                                    class="feedback-author__design"
+                                                >
+                                                    Người dùng
+                                                </p>
+                                                <img
+                                                    src="./assets/image/feedback-star.svg"
+                                                    alt=""
+                                                    class="feedback-author__star"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button
+                                class="feedback__control"
+                                onclick="changeReview(-1)"
+                            >
+                                <svg
+                                    width="20"
+                                    height="21"
+                                    viewBox="0 0 20 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M3.125 10.9985H16.875"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M11.25 5.37354L16.875 10.9985L11.25 16.6235"
+                                        stroke="currentcolor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <div class="container">
@@ -840,7 +1028,7 @@
                                             href=""
                                             target="_blank"
                                             class="footer__link--email footer__link"
-                                            >Email: vantuan.97.pt@gmail.com</a
+                                            >Email: Vantuan.97.pt@gmail.com</a
                                         >
                                     </li>
                                     <li>
@@ -848,7 +1036,7 @@
                                             href="tel:0987183446"
                                             class="footer__link"
                                         >
-                                            Số điện thoại: 0987193446
+                                            Số điện thoại: 0987183446
                                         </a>
                                     </li>
                                     <li>
@@ -866,7 +1054,9 @@
 
                             <!-- column 4-->
                             <section class="footer__column">
-                                <h3 class="footer__heading">Giờ mở cửa</h3>
+                                <h3 class="footer__heading">
+                                    Thời gian giảng dạy
+                                </h3>
                                 <ul class="footer__list">
                                     <li>
                                         <a href="" class="footer__link">
@@ -896,4 +1086,5 @@
         </footer>
     </body>
     <script src="./main.js"></script>
+    <!-- <script src="./main2.js"></script> -->
 </html>
