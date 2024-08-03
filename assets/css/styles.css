@@ -457,6 +457,10 @@ a {
     }
 
     .hero__heading__mobile2 {
+        font-size: 3rem;
+    }
+
+    .hero__heading__mobile2 {
         font-family: "Roboto Slab", serif;
         color: #000958;
         font-size: 3rem;
@@ -1031,6 +1035,10 @@ a {
         padding: 40px 0 40px;
     }
 
+    .service__heading {
+        font-size: 3rem;
+    }
+
     .service__body {
         margin-top: 40px;
         display: grid;
@@ -1259,6 +1267,10 @@ a {
         display: none;
     }
 
+    .review__heading {
+        font-size: 3rem;
+    }
+
     .review-item__img {
         width: 100%;
     }
@@ -1406,6 +1418,10 @@ a {
 
     .pricing-container {
         width: 100%;
+    }
+
+    .pricing__heading {
+        font-size: 3rem;
     }
 
     .pricing__desc {
