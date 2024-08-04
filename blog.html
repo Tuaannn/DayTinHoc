@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lucy</title>
+        <!-- reset css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Sora:wght@400;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- style css -->
+        <link rel="stylesheet" href="./assets/css/./blog.css" />
+        <link rel="stylesheet" href="./assets/css/./header.css" />
+        <link rel="stylesheet" href="./assets/css/./footer.css" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <!-- logo -->
+                    <img
+                        src="./assets/image/Logo.svg"
+                        alt="Lucy"
+                        class="logo"
+                    />
+
+                    <a href="./index.html" class="header__mobile-logo">
+                        <img
+                            src="./assets/image/Logo.svg"
+                            alt=""
+                            class="header__mobile-logo"
+                        />
+                    </a>
+
+                    <label for="menu-checkbox">
+                        <img
+                            src="./assets/image/Menu.svg"
+                            alt=""
+                            class="header-menu"
+                        />
+                    </label>
+                    <!-- navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Trang chủ</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"> Bài viết </a>
+                            </li>
+
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Giới thiệu
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- header action -->
+                    <div class="header-action">
+                        <a href="#!" class="btn header-action__btn">Liên hệ</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Mobile Header -->
+        <header class="mobile-header">
+            <input
+                type="checkbox"
+                name="menu-checkbox"
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <label for="menu-checkbox" class="menu-overlay"></label>
+
+            <div class="menu-drawer">
+                <a href="#!">
+                    <img
+                        src="./assets/image/Logo.svg"
+                        alt=""
+                        class="mobile-header-logo"
+                    />
+                </a>
+
+                <ul class="menu-list__mobile">
+                    <li>
+                        <a href="#" class="menu-item__mobile">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="#" class="menu-item__mobile">Bài viết</a>
+                    </li>
+                    <li>
+                        <a href="!#" class="menu-item__mobile"> Giới thiệu </a>
+                    </li>
+
+                    <li>
+                        <a href="./contact.html" class="menu-item__show-mobile">
+                            Liên Hệ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- hero -->
+
+        <main>
+            <div class="blog">
+                <div class="container">
+                    <div class="blog-recent">
+                        <div class="blog-recent-left">
+                            <a href="#!"
+                                ><img
+                                    src="./assets/blog-images/blog-recent.jpg"
+                                    alt=""
+                                    class="blog-recent__img"
+                                />
+                            </a>
+                            <h2>
+                                <a href="#!" class="blog-recent__heading">
+                                    Exploring Argentina and Chile by Bus
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="blog-recent-right">
+                            <form
+                                action="https://api-gateway.fullstack.edu.vn/action_page.php"
+                                class="blog-recent-form"
+                            >
+                                <input
+                                    type="search"
+                                    name="search"
+                                    id="search"
+                                    placeholder="Search Blog"
+                                    class="blog-recent__input"
+                                    autocomplete="off"
+                                />
+                                <button
+                                    type="submit"
+                                    class="blog-recent__submit btn"
+                                >
+                                    Search
+                                </button>
+                            </form>
+
+                            <p class="blog-recent__desc">Recent Blog</p>
+
+                            <div class="blog-recent-list">
+                                <div class="blog-recent-item">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/blog-images/blog-recent2.jpg"
+                                            alt=""
+                                            class="blog-recent-item__img"
+                                        />
+                                    </a>
+                                    <p>
+                                        <a
+                                            href="#!"
+                                            class="blog-recent-item__desc line-clamp"
+                                        >
+                                            7 Tips For Nomads On A Budget Trips
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="blog-recent-item">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/blog-images/blog-recent1.jpg"
+                                            alt=""
+                                            class="blog-recent-item__img"
+                                        />
+                                    </a>
+                                    <p>
+                                        <a
+                                            href="#!"
+                                            class="blog-recent-item__desc line-clamp"
+                                        >
+                                            Luxury travel: the most remote
+                                            resorts in Philippines
+                                        </a>
+                                    </p>
+                                </div>
+
+                                <div class="blog-recent-item">
+                                    <a href="#!">
+                                        <img
+                                            src="./assets/blog-images/blog-recent3.jpg"
+                                            alt=""
+                                            class="blog-recent-item__img"
+                                        />
+                                    </a>
+                                    <p>
+                                        <a
+                                            href="#!"
+                                            class="blog-recent-item__desc line-clamp"
+                                            >Top travel destinations the experts
+                                            say
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-content__heading">
+                                The Sea is Calling
+                            </h3>
+                            <p class="blog-content__desc">
+                                Sitting serenely on the turquoise coasts of the
+                                Caribbean Sea lie two properties that embody
+                                paradise in quiet luxury. Park Hyatt St. Kitts
+                                and Andaz Mayakoba are the answers to your
+                                desires for a sun-filled ocean getaway. Whether
+                                vacationing with the whole family, or lounging
+                                your time away with a loved one, both properties
+                                capture the essence of resort living on
+                                beautiful grounds with unforgettable
+                                itineraries.
+                            </p>
+                            <h3 class="blog-content__heading">
+                                Park Hyatt ST. KIitts
+                            </h3>
+                            <img
+                                src="./assets/blog-images/detail1.jpg"
+                                alt=""
+                                class="blog-content__image"
+                            />
+                            <p class="blog-content__desc">
+                                Amidst sugar mill ruins and grassy sloping
+                                peaks, Park Hyatt St. Kitts brings a sense of
+                                rich historic charm to sandy beaches and coastal
+                                living that one rarely finds elsewhere. Thin
+                                palms careen and crane throughout the shoreline
+                                as thick, blooming vegetation continues to the
+                                summit of each mountain. Park Hyatt St. Kitts is
+                                strategically placed to not only capture the
+                                essence of the island, but to allow guests to
+                                discover more through aquatic adventures,
+                                thoughtful dining experiences, and more.
+                            </p>
+                            <h3 class="blog-content__heading">What to See</h3>
+                            <div class="blog-content__img-wrap">
+                                <img
+                                    src="./assets/blog-images/detail2.jpg"
+                                    alt=""
+                                    class="blog-content__small-img"
+                                />
+                                <img
+                                    src="./assets/blog-images/detail3.jpg"
+                                    alt=""
+                                    class="blog-content__small-img"
+                                />
+                                <img
+                                    src="./assets/blog-images/detail4.jpg"
+                                    alt=""
+                                    class="blog-content__small-img"
+                                />
+                                <img
+                                    src="./assets/blog-images/detail5.jpg"
+                                    alt=""
+                                    class="blog-content__small-img"
+                                />
+                            </div>
+                            <p class="blog-content__desc">
+                                Explore the island of St. Kitts and take the
+                                beaten path to adventure. Try an off-road
+                                expedition through the mountains and a chance to
+                                see the gorgeous ruins and native monkeys.
+                                Explore the historic stately homes of sugar mill
+                                plantations and engage with the ever-welcoming
+                                Kittitian population. To see more, take a short
+                                20-minute water taxi ride over to St. Kitts’
+                                sister island, Nevis, where a greater sense of
+                                privacy and seclusion can be found.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__left">
+                        <img src="./assets/image/Logo.svg" alt="" />
+
+                        <p class="footer__left--desc">
+                            Chúng tôi cung cấp khóa học tin học cho Bé uy tín,
+                            chất lượng, cam kết hoàn tiền nếu sau khi hoàn thành
+                            khóa học Bé không có tiến bộ
+                        </p>
+
+                        <!-- social -->
+                        <h3 class="footer__heading">Liên hệ với chúng tôi</h3>
+                        <div class="footer-social">
+                            <a
+                                href="tel:0987183446"
+                                class="footer__icon-wrap"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./assets/image/CallIcon.svg"
+                                    alt=""
+                                    class="footer__icon"
+                                />
+                            </a>
+                            <a
+                                href="https://www.messenger.com/t/100004614733978"
+                                class="footer__icon-wrap"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./assets/image/facebook.svg"
+                                    alt=""
+                                    class="footer__icon"
+                                />
+                            </a>
+                            <a
+                                href="https://www.instagram.com/tuaannnnnn/"
+                                class="footer__icon-wrap"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./assets/image/insta.svg"
+                                    alt=""
+                                    class="footer__icon"
+                                />
+                            </a>
+
+                            <a
+                                href="#!"
+                                class="footer__icon-wrap footer__icon-wrap--zalo"
+                                target="_blank"
+                            >
+                                <img
+                                    src="./assets/image/zaloIcon.svg"
+                                    alt=""
+                                    class="footer__icon"
+                                />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__right">
+                        <div class="footer__row">
+                            <!-- column 3-->
+                            <section class="footer__column">
+                                <h3 class="footer__heading">
+                                    Thông tin liên hệ
+                                </h3>
+                                <ul class="footer__list">
+                                    <li>
+                                        <a
+                                            href=""
+                                            target="_blank"
+                                            class="footer__link--email footer__link"
+                                            >Email: Vantuan.97.pt@gmail.com</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="tel:0987183446"
+                                            class="footer__link"
+                                        >
+                                            Số điện thoại: 0987183446
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href=""
+                                            target="_blank"
+                                            class="footer__link--map footer__link"
+                                        >
+                                            Địa chỉ: Tân Túc - Bình Chánh - Hồ
+                                            Chí Minh
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+
+                            <!-- column 4-->
+                            <section class="footer__column">
+                                <h3 class="footer__heading">
+                                    Thời gian giảng dạy
+                                </h3>
+                                <ul class="footer__list">
+                                    <li>
+                                        <a
+                                            href=""
+                                            class="footer__link"
+                                            onclick="prevent(event)"
+                                        >
+                                            Thứ 2 – Thứ 6: 17:30 pm – 19:30 pm
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="!#"
+                                            class="footer__link"
+                                            onclick="prevent(event)"
+                                        >
+                                            Saturday: 09.00 am – 20.00 pm
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a
+                                            href="!#"
+                                            class="footer__link"
+                                            onclick="prevent(event)"
+                                        >
+                                            Sunday: 09.00 am – 20.00 pm
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer__copyright">
+                    Copyright©2024 & Design By Tuaan
+                </p>
+            </div>
+        </footer>
+    </body>
+    <script src="./main.js"></script>
+    <script src="./main2.js"></script>
+</html>

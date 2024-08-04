@@ -28,7 +28,11 @@
             rel="stylesheet"
         />
         <!-- style css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
+
         <!-- favicon -->
         <link
             rel="apple-touch-icon"
@@ -484,10 +488,7 @@
                     <div class="review-wrap">
                         <div class="review__inner">
                             <!-- review previos -->
-                            <button
-                                class="review__control"
-                                onclick="changeSlide(-1)"
-                            >
+                            <button class="review__control review__leftControl">
                                 <svg
                                     width="20"
                                     height="21"
@@ -514,52 +515,15 @@
                             </button>
 
                             <div class="review__img-wrap">
-                                <div class="review__list-img">
-                                    <article class="review-item">
-                                        <img
-                                            src="./assets/image/review1.jpg"
-                                            alt=""
-                                            class="review-item__img"
-                                        />
-                                    </article>
-                                    <article class="review-item">
-                                        <img
-                                            src="./assets/image/review2.jpg"
-                                            alt=""
-                                            class="review-item__img"
-                                        />
-                                    </article>
-
-                                    <article class="review-item">
-                                        <img
-                                            src="./assets/image/review3.jpg"
-                                            alt=""
-                                            class="review-item__img"
-                                        />
-                                    </article>
-
-                                    <article class="review-item">
-                                        <img
-                                            src="./assets/image/review4.jpg"
-                                            alt=""
-                                            class="review-item__img"
-                                        />
-                                    </article>
-                                </div>
+                                <div class="review__list-img"></div>
 
                                 <!-- review  dots -->
-                                <div class="review__dots">
-                                    <div class="review__dot"></div>
-                                    <div class="review__dot"></div>
-                                    <div class="review__dot"></div>
-                                    <div class="review__dot"></div>
-                                </div>
+                                <div class="review__dots"></div>
                             </div>
 
                             <!-- review next  -->
                             <button
-                                class="review__control"
-                                onclick="changeSlide(1)"
+                                class="review__control review__rightControl"
                             >
                                 <svg
                                     width="20"
@@ -781,8 +745,7 @@
 
                         <div class="feedback-content">
                             <button
-                                class="feedback__control"
-                                onclick="changeReview(-1)"
+                                class="feedback__control feedback__leftControl"
                             >
                                 <svg
                                     width="20"
@@ -813,153 +776,13 @@
                                 <h2 class="feedback__heading">
                                     Mọi người nói gì về khóa học Tin Học Cho Bé
                                 </h2>
-                                <div class="feedback-item--lists">
-                                    <!-- item 1 -->
-                                    <div class="feedback-item">
-                                        <q class="feedback__rate">
-                                            Thầy dạy rất tỉ mỉ, chi tiết, con
-                                            mình đã học được rất nhiều ở khóa cơ
-                                            bản, tiếp tục sẽ cho con mình học
-                                            khóa nâng cao
-                                        </q>
-                                        <div class="feedback-author">
-                                            <img
-                                                src="./assets/image/feedback-author.jpg"
-                                                alt=""
-                                                class="feedback-author__image"
-                                            />
-                                            <div class="feedback-author__info">
-                                                <p
-                                                    class="feedback-author__name"
-                                                >
-                                                    Ngọc Ánh
-                                                </p>
-                                                <p
-                                                    class="feedback-author__design"
-                                                >
-                                                    Người dùng
-                                                </p>
-                                                <img
-                                                    src="./assets/image/feedback-star.svg"
-                                                    alt=""
-                                                    class="feedback-author__star"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="feedback-item--lists"></div>
 
-                                    <!-- item 2 -->
-                                    <div class="feedback-item">
-                                        <q class="feedback__rate">
-                                            Khóa học rất chi tiết, còn mình từ
-                                            trang giấy trắng nay đã có thể dùng
-                                            được máy tính thành thạo
-                                        </q>
-                                        <div class="feedback-author">
-                                            <img
-                                                src="./assets/image/feedback-author4.jpg"
-                                                alt=""
-                                                class="feedback-author__image"
-                                            />
-                                            <div class="feedback-author__info">
-                                                <p
-                                                    class="feedback-author__name"
-                                                >
-                                                    Gia Hân
-                                                </p>
-                                                <p
-                                                    class="feedback-author__design"
-                                                >
-                                                    Người dùng
-                                                </p>
-                                                <img
-                                                    src="./assets/image/feedback-star.svg"
-                                                    alt=""
-                                                    class="feedback-author__star"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- item 3 -->
-                                    <div class="feedback-item">
-                                        <q class="feedback__rate">
-                                            Khóa học rất chi tiết, con mình đã
-                                            học được rất nhiều từ khóa học này.
-                                            Biết sử dụng máy tính và các phần
-                                            mềm Office
-                                        </q>
-                                        <div class="feedback-author">
-                                            <img
-                                                src="./assets/image/feedback-author3.jpg"
-                                                alt=""
-                                                class="feedback-author__image"
-                                            />
-                                            <div class="feedback-author__info">
-                                                <p
-                                                    class="feedback-author__name"
-                                                >
-                                                    Thanh Loan
-                                                </p>
-                                                <p
-                                                    class="feedback-author__design"
-                                                >
-                                                    Người dùng
-                                                </p>
-                                                <img
-                                                    src="./assets/image/feedback-star.svg"
-                                                    alt=""
-                                                    class="feedback-author__star"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- item 4 -->
-                                    <div class="feedback-item">
-                                        <q class="feedback__rate">
-                                            Phụ huynh nào có con chưa biết nhiều
-                                            về máy tính nên cho theo học, con
-                                            mình bắt đầu có đam mê với máy tính
-                                            từ đây
-                                        </q>
-                                        <div class="feedback-author">
-                                            <img
-                                                src="./assets/image/feedback-author2.jpg"
-                                                alt=""
-                                                class="feedback-author__image"
-                                            />
-                                            <div class="feedback-author__info">
-                                                <p
-                                                    class="feedback-author__name"
-                                                >
-                                                    Khánh Vy
-                                                </p>
-                                                <p
-                                                    class="feedback-author__design"
-                                                >
-                                                    Người dùng
-                                                </p>
-                                                <img
-                                                    src="./assets/image/feedback-star.svg"
-                                                    alt=""
-                                                    class="feedback-author__star"
-                                                />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="feedback__dots">
-                                    <div class="feedback__dot"></div>
-                                    <div class="feedback__dot"></div>
-                                    <div class="feedback__dot"></div>
-                                    <div class="feedback__dot"></div>
-                                </div>
+                                <div class="feedback__dots"></div>
                             </div>
 
                             <button
-                                class="feedback__control"
-                                onclick="changeReview(1)"
+                                class="feedback__control feedback__rightControl"
                             >
                                 <svg
                                     width="20"
@@ -1096,18 +919,30 @@
                                 </h3>
                                 <ul class="footer__list">
                                     <li>
-                                        <a href="" class="footer__link">
+                                        <a
+                                            href=""
+                                            class="footer__link"
+                                            onclick="prevent(event)"
+                                        >
                                             Thứ 2 – Thứ 6: 17:30 pm – 19:30 pm
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" class="footer__link">
+                                        <a
+                                            href="!#"
+                                            class="footer__link"
+                                            onclick="prevent(event)"
+                                        >
                                             Saturday: 09.00 am – 20.00 pm
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="" class="footer__link">
+                                        <a
+                                            href="!#"
+                                            class="footer__link"
+                                            onclick="prevent(event)"
+                                        >
                                             Sunday: 09.00 am – 20.00 pm
                                         </a>
                                     </li>
@@ -1122,6 +957,7 @@
             </div>
         </footer>
     </body>
-    <script src="./main.js"></script>
-    <script src="./main2.js"></script>
+    <script src="./review.js"></script>
+    <script src="./feedback.js"></script>
+    <script src="./footer.js"></script>
 </html>
