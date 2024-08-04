@@ -53,6 +53,10 @@
     .header-menu {
         display: none;
     }
+
+    .menu-checkbox {
+        display: none;
+    }
 }
 
 /*  Tablet and mobile*/

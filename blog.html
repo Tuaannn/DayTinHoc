@@ -129,7 +129,7 @@
                         />
                     </a>
 
-                    <label for="menu-checkbox">
+                    <label for="menu-checkbox" class="menu-checkbox">
                         <img
                             src="./assets/image/Menu.svg"
                             alt=""
@@ -140,7 +140,9 @@
                     <nav class="navbar">
                         <ul class="navbar__list">
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Trang chủ</a>
+                                <a href="./index.html" class="navbar__link"
+                                    >Trang chủ</a
+                                >
                             </li>
                             <li class="navbar__item">
                                 <a href="#!" class="navbar__link"> Bài viết </a>
@@ -204,11 +206,27 @@
         <main>
             <div class="blog">
                 <div class="container">
+                    <div class="blog-heading">
+                        <h1 class="blog-heading__title">
+                            Welcome to our Travel Blog
+                        </h1>
+                        <img
+                            src="./assets/image/blog-decor.svg"
+                            alt=""
+                            class="blog-heading__decor"
+                        />
+
+                        <img
+                            src="./assets/images/mobile decor.svg"
+                            alt=""
+                            class="blog-heading__mobile-decor"
+                        />
+                    </div>
                     <div class="blog-recent">
                         <div class="blog-recent-left">
                             <a href="#!"
                                 ><img
-                                    src="./assets/blog-images/blog-recent.jpg"
+                                    src="./assets/image/review1.jpg"
                                     alt=""
                                     class="blog-recent__img"
                                 />
@@ -236,66 +254,71 @@
                                     type="submit"
                                     class="blog-recent__submit btn"
                                 >
-                                    Search
+                                    Tìm kiếm
                                 </button>
                             </form>
 
-                            <p class="blog-recent__desc">Recent Blog</p>
+                            <p class="blog-recent__desc">Bài viết gần đây</p>
 
                             <div class="blog-recent-list">
-                                <div class="blog-recent-item">
-                                    <a href="#!">
-                                        <img
-                                            src="./assets/blog-images/blog-recent2.jpg"
-                                            alt=""
-                                            class="blog-recent-item__img"
-                                        />
-                                    </a>
-                                    <p>
-                                        <a
-                                            href="#!"
-                                            class="blog-recent-item__desc line-clamp"
-                                        >
-                                            7 Tips For Nomads On A Budget Trips
-                                        </a>
-                                    </p>
+                                <div class="blog__content-item">
+                                    <img
+                                        src="./assets/image/review-content1.jpg"
+                                        alt=""
+                                        class="blog__content-item-img"
+                                    />
+
+                                    <div class="blog__content-wrap">
+                                        <h3 class="blog-item__heading">
+                                            Khóa học cơ bản
+                                        </h3>
+                                        <p class="blog-item__desc">
+                                            Đối tượng: Bé chưa biết hoặc biết ít
+                                            về máy tính, bắt đầu tìm hiểu về máy
+                                            tính và các phần mềm Office
+                                        </p>
+                                        <p class="blog-item-more">Chi tiết</p>
+                                    </div>
                                 </div>
 
-                                <div class="blog-recent-item">
-                                    <a href="#!">
-                                        <img
-                                            src="./assets/blog-images/blog-recent1.jpg"
-                                            alt=""
-                                            class="blog-recent-item__img"
-                                        />
-                                    </a>
-                                    <p>
-                                        <a
-                                            href="#!"
-                                            class="blog-recent-item__desc line-clamp"
-                                        >
-                                            Luxury travel: the most remote
-                                            resorts in Philippines
-                                        </a>
-                                    </p>
+                                <div class="blog__content-item">
+                                    <img
+                                        src="./assets/image/review-content1.jpg"
+                                        alt=""
+                                        class="blog__content-item-img"
+                                    />
+
+                                    <div class="blog__content-wrap">
+                                        <h3 class="blog-item__heading">
+                                            Khóa học cơ bản
+                                        </h3>
+                                        <p class="blog-item__desc">
+                                            Đối tượng: Bé chưa biết hoặc biết ít
+                                            về máy tính, bắt đầu tìm hiểu về máy
+                                            tính và các phần mềm Office
+                                        </p>
+                                        <p class="blog-item-more">Chi tiết</p>
+                                    </div>
                                 </div>
 
-                                <div class="blog-recent-item">
-                                    <a href="#!">
-                                        <img
-                                            src="./assets/blog-images/blog-recent3.jpg"
-                                            alt=""
-                                            class="blog-recent-item__img"
-                                        />
-                                    </a>
-                                    <p>
-                                        <a
-                                            href="#!"
-                                            class="blog-recent-item__desc line-clamp"
-                                            >Top travel destinations the experts
-                                            say
-                                        </a>
-                                    </p>
+                                <div class="blog__content-item">
+                                    <img
+                                        src="./assets/image/review-content2.jpg"
+                                        alt=""
+                                        class="blog__content-item-img"
+                                    />
+                                    <div class="blog__content-wrap">
+                                        <h3 class="blog-item__heading">
+                                            Khóa học nâng cao
+                                        </h3>
+                                        <p class="blog-item__desc">
+                                            Đối tượng: Bé đã học xong khóa cơ
+                                            bản hoặc đã biết căn bản về việc sử
+                                            dụng máy tính, các phần mềm Office
+                                            muốn học nâng cao hơn
+                                        </p>
+                                        <p class="blog-item-more">Chi tiết</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -319,7 +342,7 @@
                                 Park Hyatt ST. KIitts
                             </h3>
                             <img
-                                src="./assets/blog-images/detail1.jpg"
+                                src="./assets/image/review1.jpg"
                                 alt=""
                                 class="blog-content__image"
                             />
@@ -339,22 +362,22 @@
                             <h3 class="blog-content__heading">What to See</h3>
                             <div class="blog-content__img-wrap">
                                 <img
-                                    src="./assets/blog-images/detail2.jpg"
+                                    src="./assets/image/review1.jpg"
                                     alt=""
                                     class="blog-content__small-img"
                                 />
                                 <img
-                                    src="./assets/blog-images/detail3.jpg"
+                                    src="./assets/image/review1.jpg"
                                     alt=""
                                     class="blog-content__small-img"
                                 />
                                 <img
-                                    src="./assets/blog-images/detail4.jpg"
+                                    src="./assets/image/review1.jpg"
                                     alt=""
                                     class="blog-content__small-img"
                                 />
                                 <img
-                                    src="./assets/blog-images/detail5.jpg"
+                                    src="./assets/image/review1.jpg"
                                     alt=""
                                     class="blog-content__small-img"
                                 />
@@ -380,7 +403,11 @@
             <div class="container">
                 <div class="footer__inner">
                     <div class="footer__left">
-                        <img src="./assets/image/Logo.svg" alt="" />
+                        <img
+                            src="./assets/image/Logo.svg"
+                            alt=""
+                            class="footer__logo"
+                        />
 
                         <p class="footer__left--desc">
                             Chúng tôi cung cấp khóa học tin học cho Bé uy tín,
@@ -521,6 +548,6 @@
             </div>
         </footer>
     </body>
+    <script src="./footer.js"></script>
     <script src="./main.js"></script>
-    <script src="./main2.js"></script>
 </html>
