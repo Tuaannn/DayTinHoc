@@ -7,9 +7,9 @@ const pictureSlideShow = {
     ],
 
     render: function () {
-        let reviewList = document.querySelector(".review__list-img");
+        const reviewList = document.querySelector(".review__list-img");
 
-        let htmls = this.pictures
+        const htmls = this.pictures
             .map((picture) => {
                 return `
                 <article class="review-item">
@@ -28,10 +28,10 @@ const pictureSlideShow = {
     },
 
     renderDots: function () {
-        let listDots = document.querySelector(".review__dots");
+        const listDots = document.querySelector(".review__dots");
 
-        let htmls = this.pictures
-            .map((item) => {
+        const htmls = this.pictures
+            .map(() => {
                 return `
                          <div class="review__dot"></div>
                         `;

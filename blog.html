@@ -210,7 +210,7 @@
                 <div class="container">
                     <div class="blog-heading">
                         <h1 class="blog-heading__title">
-                            Welcome to our Travel Blog
+                            KHÓA HỌC TIN HỌC CHO BÉ
                         </h1>
                         <img
                             src="./assets/image/blog-decor.svg"
@@ -219,7 +219,7 @@
                         />
 
                         <img
-                            src="./assets/images/mobile decor.svg"
+                            src="./assets/image/mobile decor.svg"
                             alt=""
                             class="blog-heading__mobile-decor"
                         />
@@ -235,7 +235,7 @@
                             </a>
                             <h2>
                                 <a href="#!" class="blog-recent__heading">
-                                    Exploring Argentina and Chile by Bus
+                                    Khóa Học Cơ Bản
                                 </a>
                             </h2>
                         </div>
@@ -263,7 +263,10 @@
                             <p class="blog-recent__desc">Bài viết gần đây</p>
 
                             <div class="blog-recent-list">
-                                <div class="blog__content-item">
+                                <div
+                                    class="blog__content-item"
+                                    data-article="article1"
+                                >
                                     <img
                                         src="./assets/image/review-content1.jpg"
                                         alt=""
@@ -283,27 +286,10 @@
                                     </div>
                                 </div>
 
-                                <div class="blog__content-item">
-                                    <img
-                                        src="./assets/image/review-content1.jpg"
-                                        alt=""
-                                        class="blog__content-item-img"
-                                    />
-
-                                    <div class="blog__content-wrap">
-                                        <h3 class="blog-item__heading">
-                                            Khóa học cơ bản
-                                        </h3>
-                                        <p class="blog-item__desc">
-                                            Đối tượng: Bé chưa biết hoặc biết ít
-                                            về máy tính, bắt đầu tìm hiểu về máy
-                                            tính và các phần mềm Office
-                                        </p>
-                                        <p class="blog-item-more">Chi tiết</p>
-                                    </div>
-                                </div>
-
-                                <div class="blog__content-item">
+                                <div
+                                    class="blog__content-item"
+                                    data-article="article2"
+                                >
                                     <img
                                         src="./assets/image/review-content2.jpg"
                                         alt=""
@@ -325,77 +311,136 @@
                             </div>
                         </div>
                         <div class="blog-content">
-                            <h3 class="blog-content__heading">
-                                The Sea is Calling
-                            </h3>
-                            <p class="blog-content__desc">
-                                Sitting serenely on the turquoise coasts of the
-                                Caribbean Sea lie two properties that embody
-                                paradise in quiet luxury. Park Hyatt St. Kitts
-                                and Andaz Mayakoba are the answers to your
-                                desires for a sun-filled ocean getaway. Whether
-                                vacationing with the whole family, or lounging
-                                your time away with a loved one, both properties
-                                capture the essence of resort living on
-                                beautiful grounds with unforgettable
-                                itineraries.
-                            </p>
-                            <h3 class="blog-content__heading">
-                                Park Hyatt ST. KIitts
-                            </h3>
-                            <img
-                                src="./assets/image/review1.jpg"
-                                alt=""
-                                class="blog-content__image"
-                            />
-                            <p class="blog-content__desc">
-                                Amidst sugar mill ruins and grassy sloping
-                                peaks, Park Hyatt St. Kitts brings a sense of
-                                rich historic charm to sandy beaches and coastal
-                                living that one rarely finds elsewhere. Thin
-                                palms careen and crane throughout the shoreline
-                                as thick, blooming vegetation continues to the
-                                summit of each mountain. Park Hyatt St. Kitts is
-                                strategically placed to not only capture the
-                                essence of the island, but to allow guests to
-                                discover more through aquatic adventures,
-                                thoughtful dining experiences, and more.
-                            </p>
-                            <h3 class="blog-content__heading">What to See</h3>
-                            <div class="blog-content__img-wrap">
+                            <!-- article 1 -->
+                            <div
+                                class="blog-content__article actived"
+                                id="article1"
+                            >
+                                <h3 class="blog-content__heading">
+                                    Giới thiệu về khóa học
+                                </h3>
+                                <p class="blog-content__desc">
+                                    Khóa cơ bản dành cho các bé chưa biết sử
+                                    dụng máy tính hoặc đã biết sử dụng ít về máy
+                                    tính muốn nâng cao kỹ năng sử dụng máy tính
+                                    và học sử dụng các phần mềm khác như
+                                    Microsoft Paint, Micrsoft PowerPoint,
+                                    Microsoft Word, Scratch phúc vụ cho việc học
+                                    tập của bé và xa hơn là phục vụ cho công
+                                    việc sau này.
+                                </p>
+
                                 <img
                                     src="./assets/image/review1.jpg"
                                     alt=""
-                                    class="blog-content__small-img"
+                                    class="blog-content__image"
                                 />
-                                <img
-                                    src="./assets/image/review1.jpg"
-                                    alt=""
-                                    class="blog-content__small-img"
-                                />
-                                <img
-                                    src="./assets/image/review1.jpg"
-                                    alt=""
-                                    class="blog-content__small-img"
-                                />
-                                <img
-                                    src="./assets/image/review1.jpg"
-                                    alt=""
-                                    class="blog-content__small-img"
-                                />
+                                <h3 class="blog-content__heading">
+                                    Các nội dung chính bé sẽ học tại khóa học
+                                    Tin Học Cơ Bản
+                                </h3>
+                                <div class="blog-content__desc">
+                                    <p class="blog-content__desc">
+                                        Khóa học này gồm có 06 chương:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            Chương 1: Kỹ năng sử dụng máy tính
+                                            cơ bản, gồm các nội dung: Học sử
+                                            dụng máy tính, truy cập, xử lý thông
+                                            tin trên Internet, học về phần mềm
+                                            Notepad
+                                        </li>
+                                        <li>
+                                            Chương 2: Học gõ phím bằng 10 ngón
+                                            tay, bé sẽ được học các kỹ năng cần
+                                            thiết để gõ bàn phím bằng 10 ngón và
+                                            không cần nhìn bàn phím, giúp tăng
+                                            tốc độ đánh máy
+                                        </li>
+                                    </ul>
+                                </div>
+                                <h3 class="blog-content__heading">
+                                    What to See
+                                </h3>
+
+                                <p class="blog-content__desc">
+                                    Explore the island of St. Kitts and take the
+                                    beaten path to adventure. Try an off-road
+                                    expedition through the mountains and a
+                                </p>
                             </div>
-                            <p class="blog-content__desc">
-                                Explore the island of St. Kitts and take the
-                                beaten path to adventure. Try an off-road
-                                expedition through the mountains and a chance to
-                                see the gorgeous ruins and native monkeys.
-                                Explore the historic stately homes of sugar mill
-                                plantations and engage with the ever-welcoming
-                                Kittitian population. To see more, take a short
-                                20-minute water taxi ride over to St. Kitts’
-                                sister island, Nevis, where a greater sense of
-                                privacy and seclusion can be found.
-                            </p>
+
+                            <!-- article2    -->
+                            <div class="blog-content__article" id="article2">
+                                <h3 class="blog-content__heading">
+                                    Giới thiệu về khóa học
+                                </h3>
+                                <p class="blog-content__desc">
+                                    Mô tả khóa học nâng cao
+                                </p>
+                                <h3 class="blog-content__heading">
+                                    Các nội dung chính bé sẽ học tại khóa học
+                                    Tin Học Nâng Cao
+                                </h3>
+                                <img
+                                    src="./assets/image/review1.jpg"
+                                    alt=""
+                                    class="blog-content__image"
+                                />
+                                <p class="blog-content__desc">
+                                    Amidst sugar mill ruins and grassy sloping
+                                    peaks, Park Hyatt St. Kitts brings a sense
+                                    of rich historic charm to sandy beaches and
+                                    coastal living that one rarely finds
+                                    elsewhere. Thin palms careen and crane
+                                    throughout the shoreline as thick, blooming
+                                    vegetation continues to the summit of each
+                                    mountain. Park Hyatt St. Kitts is
+                                    strategically placed to not only capture the
+                                    essence of the island, but to allow guests
+                                    to discover more through aquatic adventures,
+                                    thoughtful dining experiences, and more.
+                                </p>
+                                <h3 class="blog-content__heading">
+                                    What to See
+                                </h3>
+                                <div class="blog-content__img-wrap">
+                                    <img
+                                        src="./assets/image/review1.jpg"
+                                        alt=""
+                                        class="blog-content__small-img"
+                                    />
+                                    <img
+                                        src="./assets/image/review1.jpg"
+                                        alt=""
+                                        class="blog-content__small-img"
+                                    />
+                                    <img
+                                        src="./assets/image/review1.jpg"
+                                        alt=""
+                                        class="blog-content__small-img"
+                                    />
+                                    <img
+                                        src="./assets/image/review1.jpg"
+                                        alt=""
+                                        class="blog-content__small-img"
+                                    />
+                                </div>
+                                <p class="blog-content__desc">
+                                    Explore the island of St. Kitts and take the
+                                    beaten path to adventure. Try an off-road
+                                    expedition through the mountains and a
+                                    chance to see the gorgeous ruins and native
+                                    monkeys. Explore the historic stately homes
+                                    of sugar mill plantations and engage with
+                                    the ever-welcoming Kittitian population. To
+                                    see more, take a short 20-minute water taxi
+                                    ride over to St. Kitts’ sister island,
+                                    Nevis, where a greater sense of privacy and
+                                    seclusion can be found.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -552,4 +597,5 @@
     </body>
     <script src="./footer.js"></script>
     <script src="./main.js"></script>
+    <script src="./blog.js"></script>
 </html>
