@@ -126,14 +126,6 @@ function reviewSlideShow() {
     rightControl.onclick = function () {
         changeSlide(1);
     };
-
-    let reviewContents = document.querySelectorAll(".review__content-item");
-
-    Array.from(reviewContents).forEach((item) => {
-        item.onclick = function () {
-            window.location.href = "https://www.youtube.com/";
-        };
-    });
 }
 
 pictureSlideShow.start();
