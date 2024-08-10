@@ -818,6 +818,8 @@ a {
     -webkit-line-clamp: var(--line-clamp, 4);
     -webkit-box-orient: vertical;
     overflow: hidden;
+
+    text-align: justify;
 }
 
 .service-item__more {

@@ -3,7 +3,10 @@ const pictureSlideShow = {
         { image: "./assets/image/review1.jpg" },
         { image: "./assets/image/review2.jpg" },
         { image: "./assets/image/review3.jpg" },
-        { image: "./assets/image/review4.jpg" },
+        { image: "./assets/image/img4.jpg" },
+        { image: "./assets/image/img5.jpg" },
+        { image: "./assets/image/img1.jpg" },
+        { image: "./assets/image/img2.jpg" },
     ],
 
     render: function () {

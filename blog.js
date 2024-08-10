@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const blogHeading = document.querySelector(".blog-recent__heading");
 
+    const blogImg = document.querySelector(".blog-recent__img");
+
     links.forEach((link) => {
         link.onclick = function (e) {
             e.preventDefault();
@@ -27,11 +29,22 @@ document.addEventListener("DOMContentLoaded", function () {
                 blogHeading.innerText = "Khóa Học Nâng Cao";
             }
 
+            if (articleId === "article1") {
+                blogImg.src = "./assets/image/review1.jpg";
+            } else {
+                blogImg.src = "./assets/image/img2.jpg";
+            }
+
             document.getElementById(articleId).classList.add("actived");
 
             links.forEach((item) => {
                 item.classList.remove("active");
                 this.classList.add("active");
+
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth", // Thêm hiệu ứng cuộn mượt
+                });
             });
         };
     });
@@ -44,7 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById(articleIdHome).classList.add("actived");
 
         links.forEach((item) => {
-            console.log(links);
             item.classList.remove("active");
         });
 
@@ -60,6 +72,12 @@ document.addEventListener("DOMContentLoaded", function () {
             document
                 .querySelector(".blog__content-item2")
                 .classList.add("active");
+        }
+
+        if (articleIdHome === "article1") {
+            blogImg.src = "./assets/image/review1.jpg";
+        } else {
+            blogImg.src = "./assets/image/img2.jpg";
         }
     }
 });

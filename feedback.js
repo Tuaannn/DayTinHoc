@@ -4,7 +4,7 @@ const listFeedback = {
             rate: `Thầy dạy rất tỉ mỉ, chi tiết, con mình đã học được rất nhiều ở khóa cơ bản, tiếp tục sẽ cho con mình học khóa nâng cao`,
             image: "./assets/image/feedback-author.jpg",
             other: "Người dùng",
-            author: "Ngọc Ánh",
+            author: "Kim Thanh",
             star: "./assets/image/feedback-star.svg",
         },
 
@@ -12,7 +12,7 @@ const listFeedback = {
             rate: `Khóa học rất chi tiết, còn mình từ trang giấy trắng nay đã có thể dùng được máy tính thành thạo`,
             image: "./assets/image/feedback-author4.jpg",
             other: "Người dùng",
-            author: "Gia Hân",
+            author: "Nguyen Duy",
             star: "./assets/image/feedback-star.svg",
         },
 
@@ -20,7 +20,7 @@ const listFeedback = {
             rate: `Khóa học rất chi tiết, con mình đã học được rất nhiều từ khóa học này. Biết sử dụng máy tính và các phần mềm Office`,
             image: "./assets/image/feedback-author3.jpg",
             other: "Người dùng",
-            author: "Thanh Loan",
+            author: "Xóm Cổ Tài",
             star: "./assets/image/feedback-star.svg",
         },
 
@@ -28,7 +28,7 @@ const listFeedback = {
             rate: `Phụ huynh nào có con chưa biết nhiều về máy tính nên cho theo học, con mình bắt đầu có đam mê với máy tính từ đây`,
             image: "./assets/image/feedback-author2.jpg",
             other: "Người dùng",
-            author: "Khánh Vy",
+            author: "Hiền Trương",
             star: "./assets/image/feedback-star.svg",
         },
     ],
