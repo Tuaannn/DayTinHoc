@@ -146,6 +146,9 @@ a {
     bottom: -76px;
     right: 50%;
     transform: translateX(50%);
+
+    width: 300px;
+    bottom: 0px;
 }
 
 .blog-heading__mobile-decor {

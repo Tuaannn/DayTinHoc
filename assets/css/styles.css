@@ -1051,18 +1051,27 @@ a {
     line-height: 1.19;
 }
 
+.review-list {
+    display: flex;
+    flex-direction: column;
+}
+
 .review__content-item {
     margin-top: 24px;
+    padding: 12px 12px;
     display: flex;
+    align-items: center;
     column-gap: 22px;
     cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ddd;
 }
 
 .review__content-item:nth-child(2) {
     position: relative;
 }
 
-.review__content-item:nth-child(2)::before {
+/* .review__content-item:nth-child(2)::before {
     position: absolute;
     left: 0;
     right: 0;
@@ -1073,7 +1082,7 @@ a {
     border-radius: 1px;
 
     background: #ddd;
-}
+} */
 
 .review__content-item-img {
     width: 110px;
