@@ -6,7 +6,7 @@ const pictureSlideShow = {
         { image: "./assets/image/img4.jpg" },
         { image: "./assets/image/img5.jpg" },
         { image: "./assets/image/img1.jpg" },
-        { image: "./assets/image/img2.jpg" },
+        { image: "./assets/image/img7.jpg" },
     ],
 
     render: function () {

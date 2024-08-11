@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (articleId === "article1") {
                 blogImg.src = "./assets/image/review1.jpg";
             } else {
-                blogImg.src = "./assets/image/img2.jpg";
+                blogImg.src = "./assets/image/img7.jpg";
             }
 
             document.getElementById(articleId).classList.add("actived");
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (articleIdHome === "article1") {
             blogImg.src = "./assets/image/review1.jpg";
         } else {
-            blogImg.src = "./assets/image/img2.jpg";
+            blogImg.src = "./assets/image/img7.jpg";
         }
     }
 });

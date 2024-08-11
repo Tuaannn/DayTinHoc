@@ -16,6 +16,8 @@
 
 .logo {
     cursor: pointer;
+    width: 80px;
+    object-fit: cover;
 }
 
 .navbar__link,
@@ -31,6 +33,10 @@
 .header-action__link:hover {
     color: #000958;
     text-shadow: 0.2px 0 0 currentColor, -0.2px 0 0 currentColor;
+}
+
+.navbar__link.active {
+    color: #ff5b2e;
 }
 
 .header-action__btn {
@@ -79,8 +85,18 @@
     .logo {
         display: none;
     }
+
+    .mobile-header-logo,
+    .header__mobile-logo {
+        width: 80px;
+    }
+
     .navbar {
         display: none;
+    }
+
+    .menu-item__mobile.active {
+        color: #ff5b2e;
     }
 
     .header-action {

@@ -5,6 +5,10 @@
     background: linear-gradient(to right, #fff6ed 43%, transparent 42%);
 }
 
+.footer__logo {
+    width: 80px;
+}
+
 .footer__inner {
     padding-top: 60px;
     display: flex;
