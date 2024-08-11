@@ -26,3 +26,10 @@ Array.from(navbarMobileLinks).forEach((item) => {
         item.classList.add("active");
     }
 });
+
+let contacts = document.querySelector(".menu-item__show-mobile");
+let check = document.querySelector("#menu-checkbox");
+
+contacts.onclick = function () {
+    check.checked = false;
+};

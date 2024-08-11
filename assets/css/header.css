@@ -126,11 +126,11 @@
         transform: translateX(0%);
     }
     .menu-drawer {
-        padding: 40px 0 0 20px;
+        padding: 20px 0 0 20px;
         position: fixed;
         inset: 0 0 0 40%;
         background-color: #fff;
-        z-index: 4;
+        z-index: 999;
         transform: translateX(100%);
         transition: 0.5s ease;
     }
@@ -139,7 +139,7 @@
     .menu-item__show-mobile {
         position: relative;
         display: block;
-        margin-top: 30px;
+        margin-top: 20px;
         color: #4d4f56;
         font-size: 1.6rem;
         font-weight: 500;
