@@ -944,7 +944,7 @@ a {
 
 .review-wrap {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr minmax(400px, 520px);
     align-items: center;
     justify-content: center;
     column-gap: 40px;
@@ -1054,6 +1054,8 @@ a {
 .review-list {
     display: flex;
     flex-direction: column;
+    max-height: 320px;
+    overflow: auto;
 }
 
 .review__content-item {
@@ -1136,6 +1138,10 @@ a {
     .review {
         padding: 40px 0 60px;
     }
+
+    .review-list {
+        max-height: 310px;
+    }
     .review-wrap {
         display: flex;
         flex-direction: column-reverse;
@@ -1159,7 +1165,7 @@ a {
     }
 
     .review__content-item {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .review__content-item:nth-child(2)::before {

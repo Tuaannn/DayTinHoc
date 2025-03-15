@@ -157,8 +157,13 @@ a {
 
 .blog-recent {
     display: grid;
-    grid-template-columns: 1fr 0.8fr;
+    grid-template-columns: 1fr minmax(400px, 500px);
     column-gap: 56px;
+}
+
+.blog-recent-list {
+    max-height: 318px;
+    overflow: auto;
 }
 
 .blog-recent__img {
@@ -256,6 +261,11 @@ a {
 }
 
 .blog__content-item:nth-child(2) {
+    margin-top: 24px;
+    position: relative;
+}
+
+.blog__content-item:nth-child(3) {
     margin-top: 24px;
     position: relative;
 }
@@ -361,6 +371,10 @@ a {
 @media screen and (max-width: 767.98px) {
     .blog {
         margin-top: 20px;
+    }
+
+    .blog-recent-list {
+        max-height: 316px;
     }
 
     .blog-heading__mobile-decor {

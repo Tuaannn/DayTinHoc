@@ -1,12 +1,12 @@
 const pictureSlideShow = {
     pictures: [
-        { image: "./assets/image/review1.jpg" },
-        { image: "./assets/image/review2.jpg" },
-        { image: "./assets/image/review3.jpg" },
+        { image: "./assets/image/1.jpg" },
+        { image: "./assets/image/5.jpg" },
+        { image: "./assets/image/4.jpg" },
         { image: "./assets/image/img4.jpg" },
-        { image: "./assets/image/img5.jpg" },
+        { image: "./assets/image/2.jpg" },
         { image: "./assets/image/img1.jpg" },
-        { image: "./assets/image/img7.jpg" },
+        { image: "./assets/image/11.jpg" },
     ],
 
     render: function () {
