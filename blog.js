@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
             } else if (articleId === "article3") {
                 blogHeading.innerText = "Kỹ năng sử dụng máy tính";
 
-                blogBigHeading.innerHTML = "Kỹ năng sử dụng<br>máy tính";
+                blogBigHeading.innerHTML = "KỸ NĂNG <br> Sử dụng Máy tính";
             }
 
             if (articleId === "article1") {
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const container = document.querySelector(".blog-recent-list"); // Thay đổi selector phù hợp với container của bạn
             const targetElement = document.getElementById(articleIdHome);
 
-            blogBigHeading.innerHTML = "Kỹ năng sử dụng<br>máy tính";
+            blogBigHeading.innerHTML = "KỸ NĂNG <br> Sử dụng Máy tính";
 
             if (container && targetElement) {
                 // Tính toán vị trí cần cuộn
